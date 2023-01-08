@@ -46,7 +46,7 @@ def fun1():
             ar3.wm_iconbitmap("favicon.ico")
 
             def sr():
-                f = open("harsha.txt", "a")
+                f = open("response.txt", "a")
                 f.write(f"Rating given: {rating.get()}\n")
                 f.write(f"Feedback given is:{text.get(1.0,END)}\n")
                 f.close()
